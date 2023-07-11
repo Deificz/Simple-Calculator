@@ -1,0 +1,88 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: rgb(56, 56, 56);
+    background-image: url(https://img.freepik.com/premium-photo/seamless-pattern-with-numbers_333900-11683.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculatorBody{
+    margin: 200px 0px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 30px;
+    background: rgba(77, 77, 77, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+    border: 5px solid rgba(255, 255, 255, 0.28);
+}
+
+
+.upperPart{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 390px;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    
+    border-radius: 10px;
+    border-style: solid;
+    font-size: 30px;
+    padding: 0;
+}
+.calculatorDisplay{
+    width: 90%;
+    text-align: right;
+}
+p{
+    display: inline-block;
+    text-align: right;
+}
+
+.calculatorClearDel{
+    display: flex;
+    justify-content: end;
+    align-items:center;
+    height: 50px;
+    margin: 20px 0px;
+    
+}
+.clear, .delete{
+    margin-left: 10px;
+    height: 60px;
+    width: 100px;
+    
+}
+.num, .op, .eq, .decimal{
+    height: 90px;
+    width: 90px;
+   
+}
+.row{
+    margin-bottom: 5px;
+}
+
+.element{
+    border-radius: 30px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(65, 65, 65);
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 20px;
+    color: white;
+
+}
