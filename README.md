@@ -7,4 +7,4 @@ Tech stack used:
  - CSS
  - Vanilla JavaScript
 
-Live preview: https://deificz.github.io/Simple-Calculator/
+**Live preview**: https://deificz.github.io/Simple-Calculator/
